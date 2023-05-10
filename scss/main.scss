@@ -18,6 +18,10 @@ h1, h2, h3 {
   font-weight: 400;
 }
 
+h4, h6 {
+  font-size: 16px;
+}
+
 a {
   color: set-text-color($primary-color);
   text-decoration: none;
@@ -37,6 +41,10 @@ header {
 main {
   height: 100%;
   width: 100%;
+
+  p {
+    font-size: 12pt;
+  }
 
 
   .social-icons {
