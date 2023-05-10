@@ -176,7 +176,7 @@
 .about .jobs__job h2, .about .jobs__job h3 {
   margin: 0.5rem 0;
 }
-.about .jobs__job h6 {
+.about .jobs__job h4 {
   margin: 0.3rem 0;
 }
 .about .social-icons {
@@ -275,6 +275,10 @@
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/2.jpg") center top;
   background-size: cover;
 }
+.contact__list a:hover {
+  color: #ff652f;
+  transition: all 0.5s ease-in-out;
+}
 .contact h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
@@ -327,6 +331,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media screen and (min-width: 1024px) {
+  .projects__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .contact__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 body {
   background: #272727;
   color: #fff;
@@ -337,6 +349,10 @@ body {
 
 h1, h2, h3 {
   font-weight: 400;
+}
+
+h4, h6 {
+  font-size: 16px;
 }
 
 a {
@@ -358,6 +374,9 @@ header {
 main {
   height: 100%;
   width: 100%;
+}
+main p {
+  font-size: 12pt;
 }
 main .social-icons {
   position: fixed;
