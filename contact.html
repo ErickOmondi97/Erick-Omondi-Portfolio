@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erick Omondi | Contact Me </title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://kit.fontawesome.com/85bc907f45.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/images/profile.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-btn">
+        <span class="menu-btn__burger"></span>
+      </div>
+      
+      <div id="header">
+        <div class="container">
+          <nav class="nav">
+            <a href="#"><img src="/images/logo_no-bg.png" alt="logo" class="logo"></a>
+            <div class="menu-btn">
+              <span class="menu-btn__burger"></span>
+            </div>
+            <ul id="sidemenu" class="menu-nav">
+              <li class="menu-nav__item"><a href="index.html" class="menu-nav__link">Home</a></li>
+              <li class="menu-nav__item"><a href="about.html" class="menu-nav__link">About</a></li>
+              <li class="menu-nav__item"><a href="projects.html" class="menu-nav__link">Projects</a></li>
+              <li class="menu-nav__item active"><a href="contact.html" class="menu-nav__link">Contacts</a></li>
+              <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <h1 class="subtitle">Contacts</h1>
+          </div>          
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="contact">
+        <div class="container">
+          <h1 class="subtitle-2">My Contacts</h1>
+          <p class="exp__contact">This page displays my contacts incase you want to collaborate with me on a project, employ me to your organization, enquire about web related issues or hire me for a project.</p>
+          <div class="row">
+            <div class="contact-left">
+              <div class="contact-list">
+                <p><i class="fas fa-paper-plane"></i><a href="mailto:eriqueomondi1997@gmail.com">eriqueomondi1997@gmail.com</a></p>
+                <p><i class="fas fa-phone-square-alt"></i><a href="tel:254728537964">+254728537964</a></p>
+                <p><i class="fa-solid fa-location-dot fa-flip-horizontal"></i>Nairobi, Kenya</p>
+              </div>
+            </div>
+    
+            <div class="contact-right">
+              <form>
+                <input type="text" name="First Name" placeholder="First Name" required autocomplete>
+                <input type="text" name="Second Name" placeholder="Second Name" required autocomplete>
+                <input type="Email" name="email" placeholder="example@mail.com" required autocomplete>
+                <textarea name="Message" rows="6" placeholder="Type your message here..."></textarea>
+                <button type="submit" class="btn-3">Submit</button>
+              </form>
+              <!-- <span id="msg">Hello</span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <p>Copyright &copy; Erick Omondi</p>
+    </footer>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

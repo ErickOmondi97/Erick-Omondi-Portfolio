@@ -1,0 +1,42 @@
+#services {
+  padding: 30px 0;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  grid-gap: 30px;
+  margin-top: 50px;
+
+  div {
+    background: $tertiary-color-alt;
+    padding: 40px;
+    font-size: 12px;
+    font-weight: map-get($font-weights, small);
+    border-radius: 10px;
+    @include transition-ease;
+
+    i {
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $secondary-color;
+      font-size: 12px;
+      margin-top: 20px;
+      display: inline-block;
+    }
+
+    &:hover {
+      background: $primary-color;
+      transform: translateY(-10px);
+    }
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight: map-get($font-weights, regular);
+  }
+}
